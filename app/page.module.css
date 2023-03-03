@@ -1,0 +1,96 @@
+.navbar {
+  color: var(--light-color);
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 92vw;
+}
+
+.innerNav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.nav {
+  color: var(--accent-color);
+  font-weight: 100;
+  text-shadow: var(--accent-color) 1px 0px 10px;
+  transition: 0.3s;
+}
+
+.nav:hover {
+  text-shadow: var(--light-color) 1px 0px 15px;
+  scale: 1.02;
+}
+
+.logo {
+  font-size: 10px;
+  font-style: italic;
+}
+
+.main {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.name {
+  background-color: transparent;
+  color: var(--accent-color);
+  font-size: 4rem;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.title {
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 2%;
+}
+
+.name, 
+.title {
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.btn {
+  background-color: var(--dark-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 40px;
+  color: var(--accent-color);
+  font-size: 1.1rem;
+  font-family: futura;
+  font-weight: 300;
+  height: 1.8rem;
+  margin: 16px auto;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  padding: 2px;
+  position: relative;
+  width: 6rem;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0 0 10px 0 var(--accent-color);
+  box-shadow: 0 0 10px 0 var(--accent-color);
+  cursor: pointer;
+  scale: 1.05;
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav {
+      display: none;
+  }
+}
+
+
