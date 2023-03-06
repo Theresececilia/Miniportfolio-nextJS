@@ -23,7 +23,7 @@ export default function about() {
           <br/>
           In September 2022 I joined the Frontend developer program on <a href="https://cmeducations.se"
           className="page-link" target="_blank">Changemaker educations.</a>
-           They have provided me knowledge about:
+           They have provided me knowledge about &#8594;
         </p>
       </div>
       <Image className={styles.headshot} src="/meBW.png" alt="Picture of me." width={260} height={280} />
