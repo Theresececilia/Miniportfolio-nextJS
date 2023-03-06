@@ -51,6 +51,19 @@
   background-color: transparent;
   font-size: 1rem;
   padding: 2%;
+  
+}
+
+.name:hover {
+  text-shadow: 1px 0 2px var(--light-color);
+  scale: 1.02;
+  transform: skew(5deg, 5deg);
+}
+
+.title:hover {
+  text-shadow: 3px 0 5px var(--accent-color);
+  scale: 1.03;
+  transform: skew(-5deg, -5deg);
 }
 
 .name, 
@@ -58,6 +71,7 @@
   font-weight: 300;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
+  transition: 1s;
 }
 
 .btn {
@@ -65,9 +79,7 @@
   border: 1px solid var(--accent-color);
   border-radius: 40px;
   color: var(--accent-color);
-  font-size: 1.1rem;
-  font-family: futura;
-  font-weight: 300;
+  font-size: 14px;
   height: 1.8rem;
   margin: 16px auto;
   text-align: center;

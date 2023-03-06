@@ -11,16 +11,13 @@
 
 .subtext {
     color: var(--light-color);
-    padding: 1%;
-
+    padding: 8px;
 }
 
 .projectTitle {
-    background: transparent;
-    font-family: futura;
-    font-size: 1.5rem;
-    font-weight: 300;
-    padding-top: 10%;
+    color: var(--accent-color);
+    font-size: 20px;
+    margin: 8px;
 }
 
 .container {
@@ -41,9 +38,9 @@
 
 .card {
     background-color: var(--color-opacity);
-    border: 1px solid rgba(93, 0, 223, 0.15);
+    border: 1px solid rgba(93, 0, 223, 0.25);
     border-radius: 10px;
-    margin-bottom: 10%;
+    margin-bottom: 120px;
     height: 260px;
     position: relative;
     width: 300px;
