@@ -20,6 +20,10 @@
     margin: 8px;
 }
 
+.projectTitle:hover {
+    text-decoration: underline;
+}
+
 .container {
     padding: 5%;
 }
@@ -60,7 +64,7 @@
     
     .card {
         margin: auto;
-        margin-bottom: 90px;
+        margin: 30px auto 100px;
     }
 
     .container .cards {

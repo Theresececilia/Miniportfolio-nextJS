@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <div className={styles.navbar}>
       <div className={styles.innerNav}>
       <Link href="/"> 
-       <Image src="/luna_logo.png" alt="Picture of the author"
+       <Image className={styles.logo} src="/luna_logo.png" alt="Picture of the author"
         width={70} height={70} />
       </Link>
       </div>
