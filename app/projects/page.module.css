@@ -24,6 +24,10 @@
     text-decoration: underline;
 }
 
+.githubLink {
+    color: var(--light-color);
+}
+
 .container {
     padding: 5%;
 }
