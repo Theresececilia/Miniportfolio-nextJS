@@ -13,12 +13,12 @@ export default function about() {
       <div className={styles.aboutContainer}>
       <div className={styles.infoContainer}>
         <h1 className={titleClasses}>About Me</h1>
-        <p>Hi, i'm Therese! I am a Frontend Developer under the name of Luna Grace.
+        <p>Hi, I am Therese! I am a Frontend Developer under the name of Luna Grace.
           Currently located in Stockholm, Sweden. 
           <br/>
           In January 2022 I found codecademy. Outside of my full-time job I studied <span
           className={listClasses}>Math</span> along with frontend developer essentials.
-          Since Mars 2022 i've created art with a javascript libary called <span
+          Since Mars 2022 I haveve created art with a javascript libary called <span
           className={listClasses}>p5.js</span>.
           <br/>
           In September 2022 I joined the Frontend developer program on <a href="https://cmeducations.se"

@@ -1,8 +1,6 @@
 'use client'
 import styles from './page.module.css'
-import Link from 'next/link'
 import { Nunito } from 'next/font/google'
-
 
 const nunito = Nunito({ subsets: ['latin'], weight: ['300'] })
 
