@@ -49,7 +49,6 @@
   display: flex;
   height: 90vh;
   justify-content: center;
-  
 }
 
 .name {
@@ -65,7 +64,6 @@
   background-color: transparent;
   font-size: 1rem;
   margin-bottom: 16px;
-  
 }
 
 .name:hover {
@@ -80,7 +78,7 @@
   transform: skew(-5deg, -5deg);
 }
 
-.name, 
+.name,
 .title {
   font-weight: 300;
   letter-spacing: 0.3rem;
@@ -112,12 +110,8 @@
   scale: 1.05;
 }
 
-
 @media screen and (max-width: 768px) {
-  
   .innerNav {
     width: 50%;
   }
 }
-
-

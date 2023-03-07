@@ -1,78 +1,75 @@
-
 .container {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: block;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: block;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .subtext {
-    color: var(--light-color);
-    padding: 8px;
+  color: var(--light-color);
+  padding: 8px;
 }
 
 .projectTitle {
-    color: var(--accent-color);
-    font-size: 20px;
-    margin: 8px;
+  color: var(--accent-color);
+  font-size: 20px;
+  margin: 8px;
 }
 
 .projectTitle:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .githubLink {
-    color: var(--light-color);
+  color: var(--light-color);
 }
 
 .container {
-    padding: 5%;
+  padding: 5%;
 }
 
 .cards {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin: auto;
-    max-width: 916px;
-    width: calc(100% - 20px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: auto;
+  max-width: 916px;
+  width: calc(100% - 20px);
 }
 
 .card {
-    background-color: var(--color-opacity);
-    border: 1px solid rgba(93, 0, 223, 0.25);
-    border-radius: 10px;
-    margin-bottom: 120px;
-    height: 260px;
-    position: relative;
-    width: 300px;
+  background-color: var(--color-opacity);
+  border: 1px solid rgba(93, 0, 223, 0.25);
+  border-radius: 10px;
+  margin-bottom: 120px;
+  height: 260px;
+  position: relative;
+  width: 300px;
 }
 
 .cardContent img {
-    border-radius: 10px;
-    height: 255px;
-    width: 290px;
+  border-radius: 10px;
+  height: 255px;
+  width: 290px;
 }
 
 .hr {
-    margin: 16px 40px;
+  margin: 16px 40px;
 }
 
 @media screen and (max-width: 1050px) {
-    
-    .card {
-        margin: auto;
-        margin: 30px auto 100px;
-    }
+  .card {
+    margin: auto;
+    margin: 30px auto 100px;
+  }
 
-    .container .cards {
-        flex-direction: column;
-    }
-    
+  .container .cards {
+    flex-direction: column;
+  }
 }

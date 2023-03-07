@@ -5,11 +5,11 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
-    --accent-color: rgb(97, 0, 223);
-    --dark-color: #0d0c0f;
-    --medium-color: rgb(16, 14, 19);
-    --light-color: rgb(244, 245, 245);
-    --color-opacity: rgba(40, 37, 44, 0.1);
+  --accent-color: rgb(97, 0, 223);
+  --dark-color: #0d0c0f;
+  --medium-color: rgb(16, 14, 19);
+  --light-color: rgb(244, 245, 245);
+  --color-opacity: rgba(40, 37, 44, 0.1);
 }
 
 * {
@@ -27,7 +27,7 @@ body {
 
 body {
   color: var(--light-color);
-  background: var()
+  background: var();
 }
 
 a {

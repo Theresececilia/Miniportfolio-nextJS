@@ -1,91 +1,89 @@
 .aboutContainer {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 90vh;
-    justify-content: space-around;
-    margin: auto;
-    position: relative;
-    top: 15%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90vh;
+  justify-content: space-around;
+  margin: auto;
+  position: relative;
+  top: 15%;
 }
 
 .title {
-    color: var(--accent-color);
-    font-weight: 300;
-    letter-spacing: 2px;
-    margin: 16px;
-    text-transform: uppercase;
+  color: var(--accent-color);
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 16px;
+  text-transform: uppercase;
 }
 
 .headshot {
-    -webkit-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
 }
 
 .headshot:hover {
-    scale: 1.1;
+  scale: 1.1;
 }
 
 .infoContainer {
-    background-color: var(--color-opacity);
-    border: 1px solid rgba(93, 0, 223, 0.25);
-    border-radius: 10px;
-    padding: 32px;
-    width: 50%;
+  background-color: var(--color-opacity);
+  border: 1px solid rgba(93, 0, 223, 0.25);
+  border-radius: 10px;
+  padding: 32px;
+  width: 50%;
 }
 
 .listContainer {
-    width: 15%;
+  width: 15%;
 }
 
 .languages {
-    color: var(--accent-color);
-    font-size: 18px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    transition: 0.5s;
+  color: var(--accent-color);
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.5s;
 }
 
 .languages:hover {
-    scale: 1.02;
+  scale: 1.02;
 }
 
 .languages::after {
-    content: '👾';
+  content: '👾';
 }
 
 .list {
-    list-style-type: none;
-    margin-right: 8px;
-    text-align: right;
+  list-style-type: none;
+  margin-right: 8px;
+  text-align: right;
 }
 
 @media screen and (max-width: 1050px) {
-    
-   .aboutContainer {
+  .aboutContainer {
     flex-direction: column;
     height: 100%;
-   }
+  }
 
-   .infoContainer {
+  .infoContainer {
     margin-top: 40px;
     padding: 8px;
     width: 90%;
-}
+  }
 
-    
-   .listContainer {
+  .listContainer {
     margin: 24px;
     width: 100%;
-}
+  }
 
-   .list {
+  .list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   }
+  }
 }
